@@ -7,7 +7,8 @@
     <title>Halaman About</title>
 </head>
 <body>
-<h1>About</h1>
+<h1>About  {{ $name ?? '' }} </h1>
+
 <p>
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis eaque libero qui doloribus quidem! Explicabo adipisci nam dolorem suscipit amet ut aut, deleniti maiores ea recusandae possimus iste omnis nemo enim perspiciatis maxime ipsum voluptates tempore est reiciendis sed quasi? Odit itaque maiores id voluptatum tempore, deserunt quibusdam fugit magnam!
 </p>
